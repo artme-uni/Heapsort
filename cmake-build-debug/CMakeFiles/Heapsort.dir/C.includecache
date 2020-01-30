@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/CLion/Heapsort/main.c
+sort.h
+/Users/twiggy/CLion/Heapsort/sort.h
+
+/Users/twiggy/CLion/Heapsort/sort.c
+sort.h
+/Users/twiggy/CLion/Heapsort/sort.h
+
+/Users/twiggy/CLion/Heapsort/sort.h
+stdlib.h
+-
+stdio.h
+-
+
